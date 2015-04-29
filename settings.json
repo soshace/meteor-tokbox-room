@@ -1,0 +1,10 @@
+{
+    "opentok": {
+        "secret": "7f578ce6ab65890ce04681f2a8e63b604fe9fbe1"
+    },
+    "public": {
+        "opentok": {
+            "apiKey": "45211932"
+        }
+    }
+}

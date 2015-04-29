@@ -1,0 +1,16 @@
+template(name='home')
+    table.table.table-hover
+        thead
+            td topic
+            td authorId
+            td sessionId
+        each rooms
+            tbody
+                tr(style='cursor:pointer;')
+                    td {{topic}}
+                    td {{authorId}}
+                    td {{sessionId}}
+
+    form.room-create
+        input(type='text' name='topic')
+        button.btn.btn-success +
